@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Stoplight Elements example</title>
+    <meta name="description" content="Example site using Stoplight Elements to display docs">
+    <meta name="author" content="Stoplight">
+    <script src="lib/elements/elements.min.js"></script>
+    <link rel="stylesheet" href="lib/elements/elements.min.css">
+    <style>
+        body {
+            font-family: ui-sans-serif, sans-serif;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <elements-api id="docs" router="hash" layout="sidebar"></elements-api>
+    <script>
+        (async () => {
+            const docs = document.getElementById('docs');
+            const text = await fetch('/petstore_bundled.json').then(res => res.text())
+            console.log(text);
+            // const el = document.createElement('elements-stoplight-project')
+            docs.apiDescriptionDocument = text;
+
+            // document.append
+        })();
+    </script>
+</body>
+</html>
