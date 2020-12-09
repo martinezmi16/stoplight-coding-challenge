@@ -4,7 +4,7 @@ Create an integration or e2e test for the included docs component that verifies 
 
 ## Instructions
 
-1. Create a Github repository called "Stoplight Coding Challenge" and invite me: [https://github.com/lottamus](https://github.com/lottamus)
+1. Create a Github repository called "Stoplight Coding Challenge" and invite me: [https://github.com/chris-miaskowski](https://github.com/chris-miaskowski)
 2. Clone this repository and push the code to your new repository.
 3. Run `yarn` to install all the dependencies.
 4. Run `yarn test` to start the simple server and Cypress test runner.
@@ -40,8 +40,6 @@ Create an integration or e2e test for the included docs component that verifies 
 * `server.js`: a static web server for `public`. (do not edit)
 
 ## Useful Links
-
-* My email - [chris@stoplight.io](mailto:chris@stoplight.io)
 
 * Introduction to Cypress - [https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html)
 
